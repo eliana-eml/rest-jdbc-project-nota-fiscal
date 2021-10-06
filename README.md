@@ -14,7 +14,9 @@
 </p>
 
 <h3 align="center">Como Usar</h3>
-
+  <p align="center">Antes de qualquer outra coisa, vamos clonar o projeto:</p>
+  <p align="center">Para que você possa rodar o programa na sua máquina primeiro confira se você possui as seguintes ferramentas instaladas no seu computador:</p>
+  <p align="center">. . . . . .</p>
 <h3 align="center">Tecnologias</h3>
 
 <div align="center">
