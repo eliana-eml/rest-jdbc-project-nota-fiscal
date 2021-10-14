@@ -17,6 +17,8 @@
 ***
 
 <h3 align="center">Como Usar</h3>
+
+<br>
 <p align="center">1) Antes de qualquer outra coisa, vamos clonar o projeto:</p>
 
 ```
@@ -25,11 +27,13 @@ git clone https://github.com/eliana-eml/rest-jdbc-project-nota-fiscal
 <p align="center">Ou</p>
 
 > **IMG DE CLONE E/OU DOWNLOAD DE ZIP**
+<br>
 
 ***
 
 <p align="center">2) Para que você possa rodar o programa na sua máquina primeiro confira se você possui as seguintes ferramentas instaladas no seu computador:</p>
 
+<br>
 <div align="center">
   
  <p align="center"><strong>✔️ <a href="https://www.oracle.com/java/technologies/downloads/">JDK</a> (Java Virtual Machine).</strong></p>
@@ -45,11 +49,15 @@ git clone https://github.com/eliana-eml/rest-jdbc-project-nota-fiscal
 
 ***
 
+<br>
+
 <p align="center">3) A seguir você irá abrir o arquivo nota-fiscal.sql no seu MySQL Workbench e em seguida clicar no botão de raio para que ele crie o banco de dados e as tabelas respectivamente.</p>
 
 > **IMG**
 
 ***
+
+<br>
 
 <p align="center">4) A seguir vamos importar o projeto em nossa IDE. Lembrando que nesse caso o projeto está sendo importado na Eclipse IDE, então o passo a passo de importação aqui descritos se aplicam a essa IDE, caso você utilize outra IDE o passo a passo podem variar.</p>
 
@@ -57,13 +65,19 @@ git clone https://github.com/eliana-eml/rest-jdbc-project-nota-fiscal
 
 ***
 
+<br>
+
 <p align="center">5) A seguir na pasta <strong><i>src/main/resources</i></strong>, clique no arquivo de nome <strong><i>application.properties</i></strong>:</p>
+
+<br>
 
 <div align="center">
   <img src="./assets/pastas.PNG" />
 </div>
 
 ***
+
+<br>
 
 <p align="center">6) Em <strong><i>application.properties</i></strong> você irá trocar ambos os campos <strong><i>spring.datasource.username</i></strong> e <strong><i>spring.datasource.password</strong></i>, e colocar o seu <strong><i>nome de usuario</strong></i> e <strong><i>senha</strong></i> do seu MySQL para que assim o programa possa reconhecer o seu banco de dados e as tabelas criadas neles.</p>
 
