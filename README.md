@@ -26,6 +26,8 @@ git clone https://github.com/eliana-eml/rest-jdbc-project-nota-fiscal.git
 
 > **IMG DE CLONE E/OU DOWNLOAD DE ZIP**
 
+***
+
 <p align="center">2) Para que você possa rodar o programa na sua máquina primeiro confira se você possui as seguintes ferramentas instaladas no seu computador:</p>
 
 <div align="center">
@@ -47,11 +49,23 @@ git clone https://github.com/eliana-eml/rest-jdbc-project-nota-fiscal.git
 
 > **IMG**
 
-<p align="center">4) A seguir na pasta <strong><i>src/main/resources</i></strong>, clique no arquivo de nome <strong><i>application.properties</i></strong>:</p>
+***
+
+<p align="center">4) A seguir vamos importar o projeto em nossa IDE. Lembrando que nesse caso o projeto está sendo importado na Eclipse IDE, então o passo a passo de importação aqui descritos se aplicam a essa IDE, caso você utilize outra IDE o passo a passo podem variar.</p>
 
 > **IMG**
 
-<p align="center">5) Em <strong><i>application.properties</i></strong> você irá trocar ambos os campos <strong><i>spring.datasource.username</i></strong> e <strong><i>spring.datasource.password</strong></i>, e colocar o seu <strong><i>nome de usuario</strong></i> e <strong><i>senha</strong></i> do seu MySQL para que assim o programa possa reconhecer o seu banco de dados e as tabelas criadas neles.</p>
+***
+
+<p align="center">5) A seguir na pasta <strong><i>src/main/resources</i></strong>, clique no arquivo de nome <strong><i>application.properties</i></strong>:</p>
+
+<div align="center">
+  <img src="./assets/pastas.PNG" />
+</div>
+
+***
+
+<p align="center">6) Em <strong><i>application.properties</i></strong> você irá trocar ambos os campos <strong><i>spring.datasource.username</i></strong> e <strong><i>spring.datasource.password</strong></i>, e colocar o seu <strong><i>nome de usuario</strong></i> e <strong><i>senha</strong></i> do seu MySQL para que assim o programa possa reconhecer o seu banco de dados e as tabelas criadas neles.</p>
 
 ```
 spring.datasource.username = nomeDeUsuario
