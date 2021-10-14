@@ -14,30 +14,52 @@
 </p>
 
 ***
+***
 
 <h3 align="center">Como Usar</h3>
-<p align="center">Antes de qualquer outra coisa, vamos clonar o projeto:</p>
+<p align="center">1) Antes de qualquer outra coisa, vamos clonar o projeto:</p>
 
 ```
 git clone https://github.com/eliana-eml/rest-jdbc-project-nota-fiscal.git
 ```
 <p align="center">Ou</p>
-<p align="center">IMAGEM DE CLONE</p>
-<p align="center">Para que você possa rodar o programa na sua máquina primeiro confira se você possui as seguintes ferramentas instaladas no seu computador:</p>
+
+> **IMG DE CLONE E/OU DOWNLOAD DE ZIP**
+
+<p align="center">2) Para que você possa rodar o programa na sua máquina primeiro confira se você possui as seguintes ferramentas instaladas no seu computador:</p>
 
 <div align="center">
   
- <p align="center"><strong>✔️ <a href="https://www.oracle.com/java/technologies/downloads/">JDK</a> (Java Virtual Machine)</strong></p>
+ <p align="center"><strong>✔️ <a href="https://www.oracle.com/java/technologies/downloads/">JDK</a> (Java Virtual Machine).</strong></p>
   
-  <p align="center"><strong>✔️ Uma <a href="https://www.redhat.com/pt-br/topics/middleware/what-is-ide#:~:text=IDE%2C%20ou%20ambiente%20de%20desenvolvimento,facilitando%20o%20desenvolvimento%20de%20aplica%C3%A7%C3%B5es.">IDE</a> como a <a href="https://www.eclipse.org/downloads/">Eclipse</a> para rodar o seu projeto Java</strong></p>
+  <p align="center"><strong>✔️ Uma <a href="https://www.redhat.com/pt-br/topics/middleware/what-is-ide#:~:text=IDE%2C%20ou%20ambiente%20de%20desenvolvimento,facilitando%20o%20desenvolvimento%20de%20aplica%C3%A7%C3%B5es.">IDE</a> como a <a href="https://www.eclipse.org/downloads/">Eclipse</a> para rodar o seu projeto Java.</strong></p>
   
   <p align="center"><strong>✔️ Um <a href="https://www.oracle.com/br/database/what-is-a-relational-database/">Banco de Dados Relacional</a> como o <a href="https://dev.mysql.com/downloads/">MySQL</a> e um </strong></p>
   
   <p align="center"><strong>✔️ <a href="https://dicasdeprogramacao.com.br/o-que-e-um-sgbd/">SGDB</a> (Sistema Gerenciador de Banco de Dados) como o <a href="https://dev.mysql.com/downloads/workbench/"> MySQL Workbench</a>.</strong></p>
 </div>
-  
-<p align="center">A seguir na pasta *src/main/resources*, clique no arquivo de nome *aplication.properties*:</p>
 
+  <p align="center"><strong>✔️E para nossos testes um <a href="https://www.infoq.com/br/articles/10-ferramentas-teste-api/">API Client</a> de sua escolha, no caso desse projeto eu usei a ferramenta <a href="https://www.postman.com/downloads/">Postman</a>.</strong></p>
+
+***
+
+<p align="center">3) A seguir você irá abrir o arquivo nota-fiscal.sql no seu MySQL Workbench e em seguida clicar no botão de raio para que ele crie o banco de dados e as tabelas respectivamente.</p>
+
+> **IMG**
+
+<p align="center">4) A seguir na pasta <strong><i>src/main/resources</i></strong>, clique no arquivo de nome <strong><i>application.properties</i></strong>:</p>
+
+> **IMG**
+
+<p align="center">5) Em <strong><i>application.properties</i></strong> você irá trocar ambos os campos <strong><i>spring.datasource.username</i></strong> e <strong><i>spring.datasource.password</strong></i>, e colocar o seu <strong><i>nome de usuario</strong></i> e <strong><i>senha</strong></i> do seu MySQL para que assim o programa possa reconhecer o seu banco de dados e as tabelas criadas neles.</p>
+
+```
+spring.datasource.username = nomeDeUsuario
+spring.datasource.password = senhaDeUsuario
+```
+> **IMG**
+
+***
 ***
 
 <h3 align="center">Tecnologias</h3>
