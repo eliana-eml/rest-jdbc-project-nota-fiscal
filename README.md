@@ -1,5 +1,5 @@
 <h1 align="center"> Cadastro de Notas Fiscais e seus Itens </h1>
-<p id="sobre" align="center">Projeto Java feito utilizando a framework Spring JDBC. O projeto foi feito para um trabalho do meu curso de Desenvolvimento de Sistemas no SENAI-SP. O seu objetivo era criar uma REST API de "Cadastro de Notas Fiscais e seus Itens", utilizando a framework Spring JDBC e Banco de Dados Relacional MySQL.</p>
+<p id="sobre" align="center">Projeto Java feito utilizando JDBC. O projeto foi feito para um trabalho do meu curso de Desenvolvimento de Sistemas no SENAI-SP. O seu objetivo era criar uma REST API de "Cadastro de Notas Fiscais e seus Itens", utilizando o JDBC e Banco de Dados Relacional MySQL.</p>
 
 <h4 align="center"> 
   🔹 Status: Concluído ✅
